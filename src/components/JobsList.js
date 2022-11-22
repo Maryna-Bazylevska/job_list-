@@ -11,7 +11,7 @@ const JobsList = ({ jobs }) => {
   if (!jobs) {
     return null;
   }
-  const jobsPerPage = 10;
+  const jobsPerPage = 5;
   const pagesVisited = pageNumber * jobsPerPage;
 
   const pageCount = Math.ceil(jobs.length / jobsPerPage);
